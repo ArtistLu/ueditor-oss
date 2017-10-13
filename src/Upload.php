@@ -6,10 +6,10 @@
  */
 namespace ArtistLu\First;
 
-class Ueditor
+class Upload
 {
-    public function upload()
+    public function hello()
     {
-
+        echo 'hello first github progect';
     }
 }
