@@ -1,6 +1,5 @@
 {
-  "name": ":vendor/:ueditor-oss",
-  "type": "library",
+  "name": "ArtistLu/ueditor-oss",
   "description": ":base on ueditor upload file to oss",
   "keywords": [
     ":oss",
@@ -9,7 +8,6 @@
     ":laravel",
     ":php"
   ],
-  "homepage": "https://github.com/:vendor/:package_name",
   "license": "MIT",
   "authors": [
     {
@@ -35,11 +33,6 @@
     "test": "phpunit",
     "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
     "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.0-dev"
-    }
   },
   "config": {
     "sort-packages": true
