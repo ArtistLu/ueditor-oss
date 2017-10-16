@@ -1,18 +1,18 @@
 {
   "name": "artist-lu/ueditor-oss",
-  "description": ":base on ueditor upload file to oss",
+  "description": "base on ueditor upload file to oss",
   "keywords": [
-    ":oss",
-    ":ueditor",
-    ":ueditor-oss",
-    ":laravel",
-    ":php"
+    "oss",
+    "ueditor",
+    "ueditor-oss",
+    "laravel",
+    "php"
   ],
   "license": "MIT",
   "authors": [
     {
-      "name": ":ArtistLu",
-      "email": ":1216160989@qq.com",
+      "name": "ArtistLu",
+      "email": "1216160989@qq.com",
       "homepage": "http://artistlu.top/",
       "role": "Developer"
     }
@@ -28,11 +28,6 @@
     "psr-4": {
       "ArtistLu\\First\\": "src"
     }
-  },
-  "scripts": {
-    "test": "phpunit",
-    "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
-    "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
   },
   "config": {
     "sort-packages": true
